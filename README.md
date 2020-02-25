@@ -7,6 +7,8 @@ shortened URL.
 
 Since the shortened URL can be 8 characters Long, hence it can serve upto 62^7 = 317 trillion unique queries. 
 
+Editor used: Sublime text 3.
+
 Requirements :
 Python 2.7+
 flask
