@@ -5,6 +5,8 @@ Long URL is stored at new index in database. Shortened URL is returned to the us
 encoding on the index of stored long URL. Original URL is retrieved using base-62 decoding on the
 shortened URL.
 
+Since the shortened URL can be 8 characters Long, hence it can serve upto 62^7 = 317 trillion unique queries. 
+
 Requirements :
 Python 2.7+
 flask
